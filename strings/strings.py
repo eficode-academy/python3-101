@@ -1,11 +1,11 @@
 def length(text):
-    return len(text)
+    pass
 
 def without(text, to_remove):
-    return "".join(letter for letter in text if letter not in to_remove)
+    pass
 
 def count_distinct(text):
-    return len(set(text))
+    pass
 
 def tokens(text):
-    return [entry for entry in text.split('.') if entry]
+	pass

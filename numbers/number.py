@@ -1,12 +1,12 @@
 def add(*numbers):
-    return sum(numbers)
+    pass
 
 def multiply(a,b):
-    return  int(a)*int(b)
+    pass
 
 def divide(a,b):
-    return a/b if b!=0 else 0
+    pass
 
 def add_two_largest(*numbers):
-    return sum(sorted(numbers)[-2:])
+    pass
 
