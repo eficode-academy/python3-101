@@ -20,9 +20,9 @@ book = {
 
 Before adding numbers to it, a check is run to check if the number is written in a international format, meaning it has a `+` sign in front of the number and the leading 0 is disregarded.
 
-Also, the name is checked. More on these checks on the next chapter.
+Also, the name is checked. More on these checks in the next chapter.
 
-Our phonebook also has the ability to save and load to file. Of course, it can also be cleared.
+Our phonebook also has the ability to save and load to file.
 
 ### A quick introduction to regular expressions
 
@@ -40,9 +40,9 @@ import re
 re.match("\+?[\d ]+$", "+358406661111")
 ```
 
-Let's break down the `\+?[\d ]+$`. The first part, `\+` tells us that the string has to start with `+`. The second part, `?` tells us that the first match needs to occur between 0 and 1 times. So, `+` is an optional start to our string.
+Let's break down the `\+[\d ]+$`. The first part, `\+` tells us that the string has to start with `+`.
 
-Next, `[\d ]` tells us that we are looking for digit. `+` here tells us that we are looking for digit between 1 and unlimited times. Then finally, `$` says that the line ends here and we dont evaluate beyond this line.
+Next, `[\d ]` tells us that we are looking for digit. `+` here tells us that we are looking for digit between 1 and unlimited times. Then finally, `$` says that the line must end here and we dont evaluate beyond this line.
 
 Regular expressions might seem hard at first but like expressions, they follow a logic and are sometimes very powerful and simple way to express how things like emails, phone numbers. 
 
@@ -94,7 +94,7 @@ Niklas:+358406661111
 Create a function `load` that loads the saved phonebook back into memory. It takes a filename as a parameter and uses the same syntax as `save` does. 
 
 *Hint* Mutate the existing phonebook by using existing functions you created before
-*Hint* You can easily split string into list by using inbuilt function `.split`
+*Hint* You can easily split string into list by using method `.split`
 
 
 

@@ -12,9 +12,9 @@ Create a function `sort` that takes a list as parameter. Return the same list so
 
 ## maximum
 
-Create a function `maximum` that takes a list of integrals as parameter. Return the biggest integral of that list.
+Create a function `maximum` that takes a list of integers as parameter. Return the biggest integer of that list.
 
 ## positives
 
-Create a function `positives` that takes a list of integrals as parameter. Return a new list that has only positives of that list. 
+Create a function `positives` that takes a list of integers as parameter. Return a new list that has only positives of that list. 
 
