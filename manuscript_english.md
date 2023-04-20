@@ -6,7 +6,7 @@
 
 * Earlier programming experience is expected but not absolutely necessary.
 
-* The main study material for this training is the excellent *Dive Into Python* book which is freely available for on-line reading downloading or printing from http://diveintopython.net.  It is targeted for people who already know how to program but do not know Python before.
+* The main study material for this training is the excellent *Dive Into Python* book which is freely available for on-line reading downloading or printing from http://diveintopython3.net.  It is targeted for people who already know how to program but do not know Python before.
 
 * If you are a novice programmer, it might better to start with [Think Python][3] book. It is also available for free and its target audience
   is people without any earlier programming knowledge.
@@ -48,7 +48,7 @@
 
   - You can exit the interpreter also with command `exit()`.
 
-* Dive Into Python has some more examples: http://diveintopython.net/installing_python/shell.html
+* Dive Into Python has some more examples: https://diveintopython3.net/installing-python.html#idle
 
 
 ## Python editors
@@ -141,7 +141,7 @@ First program
   into the log file.)
 
 * For more interesting examples see Dive Into Python:
-  http://diveintopython.net/getting_to_know_python/index.html
+  https://diveintopython3.net/your-first-python-program.html
 
 
 Functions
@@ -185,7 +185,7 @@ Creating functions
 * The hard part in this example is string formatting (i.e. `"Hello,
   %s!" % name`) which uses similar syntax as for example C language.
   More information about it can be found e.g. from Dive Into Python:
-  http://diveintopython.net/native_data_types/formatting_strings.html
+  https://diveintopython3.net/strings.html#formatting-strings
 
 
 Optional and named arguments
@@ -230,7 +230,7 @@ Optional and named arguments
   argument, and `test` could be used with one to four arguments.
 
 * Dive Into Python explains both optional and named arguments very well:
-  http://diveintopython.net/power_of_introspection/optional_arguments.html
+  https://diveintopython3.net/your-first-python-program.html#optional-arguments
 
 
 Variable number of arguments
@@ -303,7 +303,7 @@ Documenting functions
     ```
 
 * Doc strings are covered pretty well in Dive Into Python:
-  http://diveintopython.net/getting_to_know_python/documenting_functions.html
+  https://diveintopython3.net/your-first-python-program.html#docstrings
 
 * Robot Framework has [libdoc.py][7] tool that can generate test library
   documentation based on these doc strings. Documenting functions that
@@ -318,7 +318,7 @@ Container data types
   Ruby. You are going to use them a lot!
 
 * See Dive Into Python for more information and examples than shown
-  below: http://diveintopython.net/native_data_types
+  below: https://diveintopython3.net/native-datatypes.html
 
 
 Lists
@@ -467,7 +467,7 @@ List comprehensions
 
 * This syntax might look a bit strange at first but you will love it
   very soon. To learn more see, for example, Dive Into Python:
-  http://diveintopython.net/native_data_types/mapping_lists.html
+  https://diveintopython3.net/comprehensions.html#listcomprehension
 
 
 Modules
