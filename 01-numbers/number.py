@@ -5,7 +5,7 @@ def multiply(a,b):
     return  int(a)*int(b)
 
 def divide(a,b):
-    return a/b if b!=0 else 0
+    return int(a/b) if b!=0 else 0
 
 def add_two_largest(*numbers):
     return sum(sorted(numbers)[-2:])
