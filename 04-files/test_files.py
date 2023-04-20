@@ -17,11 +17,11 @@ Explicit is better than implicit.""")
         self.assertFalse(files.contains('invalid', 'test.txt'))
 
     def test_return_only_rows_starting_with(self):
-        # implement files.file_rows_startingwith which will return only those rows from a file that start with some string
-        self.assertEquals(files.file_rows_startingwith('Beautiful', 'test.txt'), 
+        # implement files.file_rows_starting_with which will return only those rows from a file that start with some string
+        self.assertEquals(files.file_rows_starting_with('Beautiful', 'test.txt'), 
 """Beautiful is better than ugly.
 """)
-        self.assertEquals(files.file_rows_startingwith('E', 'zen.txt'), 
+        self.assertEquals(files.file_rows_starting_with('E', 'zen.txt'), 
 """Explicit is better than implicit.
 Errors should never pass silently.
 """)
